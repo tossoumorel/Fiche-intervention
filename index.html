@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiche intervention</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-300">
+    <section class="bg-yellow-300 px-1">
+      <div class="flex justify-between">
+        <div class="flex gap-x-2">
+          <span
+            class="inline-flex bg-black rounded-full text-white text-1xl font-extrabold px-4 items-center py-2"
+            >C</span
+          >
+          <h1 class="font-bold text-4xl flex items-center">
+            RAPPORT D'INTERVENTION
+          </h1>
+        </div>
+        <!--text italic -->
+        <div class="italic font-bold">
+          <p class="font">document DE AE 2-5</p>
+          <span>V1.0 du 03/2019-M1</span>
+        </div>
+      </div>
+      <!-- *******
+      *********************
+    *************************************
+  ************************************** -->
+      <!-- les table flex -->
+      <form action="">
+        <!-- 1er TABLEAU  -->
+
+        <div class="flex w-full justify-between gap-x-2">
+          <div class="w-4/6">
+            <div class="flex gap-x-2">
+              <div class="w-full h-full">
+                <div class="w-full border-2 bg-white border-black">
+                  <div
+                    class="h-8 w-full"
+                    style="background-color: rgba(50, 98, 18, 0.877)"
+                  >
+                    <h2
+                      class="flex flex justify-center gap-x-10 font-bold text-1xl text-center"
+                    >
+                      OPERATEUR
+                      <span
+                        class="bg-black relative left-32 top-3 w-8 rounded-full self-end text-white text-sm font-extrabold px-2 py-1"
+                        >C1</span
+                      >
+                      <!-- absolute top-16 left-96 -->
+                    </h2>
+                  </div>
+                  <!-- input -->
+                  <div class="flex flex-col gap-y-2 bg-white">
+                    <div class="flex w-full">
+                      <div class="flex w-2/4">
+                        <label for="nom_operateur1 self-end  "> Nom: </label>
+                        <input
+                          type="text "
+                          id="nom_operateur1"
+                          name="nom_operateur1"
+                          placeholder=""
+                          class="outline-none w-full h-5 border-b-2 border-dotted border-black"
+                        />
+                      </div>
+                      <div class="flex w-2/4">
+                        <label for="nom_entreprise1 flex"> Entreprise: </label>
+                        <input
+                          type="text "
+                          id="nom_entreprise1"
+                          name="nom_entreprise1"
+                          class="outline-none border-b-2 w-full h-5 border-dotted border-black"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- fonction -->
+                    <div class="flex w-full">
+                      <label for="nom_fonctionO flex">Fonction: </label>
+                      <input
+                        type="text "
+                        id="nom_fonctionO"
+                        name="nom_fonctionO"
+                        class="outline-none border-b-2 w-full h-5 border-dotted border-black"
+                      />
+                    </div>
+                    <!-- attestation d'aptitude -->
+                    <!-- attestation d'aptitude -->
+                    <div class="flex w-full gap-x-1">
+                      <h2 class="">Attestation d'aptitude:</h2>
+                      <!-- flex checbox -->
+                      <div class="flex gap-x-1.5">
+                        <!-- 1 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o1" name="o1" />
+                          <label for="o1" class="font-normal"> 1</label>
+                        </div>
+                        <!-- 2 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o2" name="o2" />
+                          <label for="o2" class="font-normal">2 </label>
+                        </div>
+                        <!-- 3 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o3" name="o3" />
+                          <label for="o3" class="font-normal"> 3</label>
+                        </div>
+                        <!-- 4 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o4" name="o4" />
+                          <label for="o4" class="font-normal">4 </label>
+                        </div>
+                        <!-- 5 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o5" name="o5" />
+                          <label for="o5" class="font-normal">5 </label>
+                        </div>
+                        <!-- 6 -->
+                        <div class="flex gap-x-0.5">
+                          <input type="checkbox" id="o5D" name="o5D" />
+                          <label for="o5D" class="font-normal">5D </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- numero capacite -->
+                    <div class="flex w-full">
+                      <label for="numero_capaciteO flex"
+                        >Attestation de capacité N°:
+                      </label>
+                      <input
+                        type="text "
+                        id="numero_capaciteO"
+                        name="numero_capaciteO"
+                        class="outline-none self-center border-b-2 w-2/5 h-5 border-dotted border-black"
+                      />
+                    </div>
+                    <!-- signature -->
+                    <div class="flex flex-col w-full">
+                      <div class="flex">
+                        <label for="signatureO flex">Signature: </label>
+                        <input
+                          type="text "
+                          id="signatureO"
+                          name="signatureO"
+                          class="outline-none border-b-2 w-full h-5 border-dotted border-black"
+                        />
+                      </div>
+                      <div class="flex">
+                        <!-- signature continue -->
+                        <input
+                          type="text "
+                          id="signatureO"
+                          name="signatureO"
+                          class="outline-none border-b-2 mb-2 w-full h-5 border-dotted border-black"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- flexbox-2 -->
+              <div class="w-full h-full bg-white">
+                <div class="w-full border-2 border-black">
+                  <div
+                    class="h-8 w-full"
+                    style="background-color: rgba(50, 98, 18, 0.877)"
+                  >
+                    <h2
+                      class="flex flex justify-center gap-x-10 font-bold text-1xl text-center"
+                    >
+                      DETENTEUR
+                      <span
+                        class="bg-black relative left-32 top-3 text-white w-8 rounded-full self-end text-md font-extrabold px-2 py-1"
+                        >C1</span
+                      >
+                    </h2>
+                  </div>
+                  <!-- input -->
+                  <div class="flex flex-col gap-y-2 bg-white">
+                    <div class="flex w-full">
+                      <label for="nom_entreprise2 flex"> Entreprise: </label>
+                      <input
+                        type="text "
+                        id="nom_entreprise2"
+                        name="nom_entreprise2"
+                        class="outline-none border-b-2 w-2/5 h-5 border-dotted border-black"
+                      />
+                    </div>
+                    <div class="flex w-full">
+                      <label for="nom_detenteur1 self-end  "> Nom: </label>
+                      <input
+                        type="text "
+                        id="nom_detenteur1"
+                        name="nom_detenteur1"
+                        class="outline-none w-2/5 h-5 border-b-2 border-dotted border-black"
+                      />
+                    </div>
+
+                    <!-- fonction -->
+                    <div class="flex w-full">
+                      <label for="nom_fonctiond flex">Fonction: </label>
+                      <input
+                        type="text "
+                        id="nom_fonctiond"
+                        name="nom_fonctiond"
+                        class="outline-none border-b-2 w-2/5 h-5 border-dotted border-black"
+                      />
+                    </div>
+                    <!-- numero capacite -->
+                    <div class="flex w-full">
+                      <label for="numero_capaciteD flex"
+                        >Attestation de capacité N°:
+                      </label>
+                      <input
+                        type="text "
+                        id="numero_capaciteD"
+                        name="numero_capaciteD"
+                        class="outline-none self-center border-b-2 w-2/5 h-5 border-dotted border-black"
+                      />
+                    </div>
+                    <!-- signature -->
+                    <div class="flex flex-col w-full">
+                      <div class="flex">
+                        <label for="signatureD flex">Signature: </label>
+                        <input
+                          type="text "
+                          id="signatureD"
+                          name="signatureD"
+                          class="outline-none border-b-2 w-full h-5 border-dotted border-black"
+                        />
+                      </div>
+                      <div class="flex">
+                        <!-- signature continue -->
+                        <input
+                          type="text "
+                          id="signatureD"
+                          name="signatureD"
+                          class="outline-none border-b-2 mb-2 w-full h-5 border-dotted border-black"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2ème tableau en ligne 100%-->
+            <table class="mt-2 table table-auto w-full bg-white border-2 border-black">
+              <tr class="border-2 border-black">
+                <th
+                  rowspan="2"
+                  scope="col"
+                  class="border-2 border-black font-bold w-1/4"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  <span
+                    class="w-8 rounded-full relative bottom-5 bg-black text-white self-end text-md font-extrabold px-2 py-1.5"
+                    >C2</span
+                  >
+                  Contrôle d'étanchiété
+                </th>
+                <td
+                  colspan="4"
+                  scope="col"
+                  class="border-2 border-black font-bold"
+                >
+                  <!-- flexbox -->
+                  <div class="flex gap-x-20 w-full ">
+                    <div class="flex flex-col">
+                      <div class="flex">
+                        <input
+                          type="checkbox"
+                          id="moussante"
+                          name="moussante"
+                        />
+                        <label for="moussante" class="font-normal self-center">
+                          Solution moussante
+                        </label>
+                      </div>
+                      <div class="flex">
+                        <input type="checkbox" id="Traceur" name="Traceur" />
+                        <label for="Traceur" class="font-normal self-center">
+                          Traceur + Lampe UV
+                        </label>
+                      </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="flex flex-col">
+                      <div class="flex">
+                        <input type="checkbox" id="ppm" name="ppm" />
+                        <label for="ppm" class="font-normal self-center">
+                          Détecteur d'ambiance (sensibilité &lt;10 ppm)
+                        </label>
+                      </div>
+                      <div class="flex">
+                        <input type="checkbox" id="g_an" name="g_an" />
+                        <label for="g_an" class="font-normal self-center">
+                          Détecteur manuel (sensibilité &lt;5 g/an)
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <!-- cellule du premier tableau en ligne  -->
+              <tr class="border-2 border-black">
+                <th
+                  scope="row"
+                  class="font-medium border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Marque
+                </th>
+                <th
+                  scope="row"
+                  class="font-medium border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Type
+                </th>
+                <th
+                  scope="row"
+                  class="font-medium border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Repère
+                </th>
+                <th
+                  scope="row"
+                  class="font-medium border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Contrôlé le
+                </th>
+              </tr>
+              <!-- ligne moyen de contrôle  -->
+              <tr class="border-2 border-black">
+                <th
+                  scope="col"
+                  class="font-medium border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Moyen de contrôle
+                </th>
+                <th class="font-medium border-2 border-black ">
+                  <input
+                    type="text "
+                    id="marque"
+                    name="marque"
+                    class="outline-none border-b-2 w-2/4 h-5 border-dotted border-black"
+                  />.
+                </th>
+                <th class="font-medium border-2 border-black ">
+                  <input
+                    type="text "
+                    id="type"
+                    name="type"
+                    class="outline-none border-b-2 w-2/4 h-5 border-dotted border-black"
+                  />
+                </th>
+                <th class="font-medium border-2 border-black ">
+                  <input
+                    type="text "
+                    id="repere"
+                    name="repere"
+                    class="outline-none border-b-2 w-2/4 h-5 border-dotted border-black"
+                  />
+                </th>
+                <th class="font-medium border-2 border-black ">
+                  <input
+                    type="text "
+                    id="controle_le"
+                    name="controle_le"
+                    class="outline-none border-b-2 w-2/4 h-5 border-dotted border-black"
+                  />
+                </th>
+              </tr>
+              <!-- tableau en colonne -->
+              <tr>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-bold"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Fuites constatées :
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal text-center w-44"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Localisation de la fuite :
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Réparation :
+                </th>
+                <th
+                  scope="row"
+                  colspan="2"
+                  class="border-2 border-black font-normal"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Observation/Commentaire:
+                </th>
+              </tr>
+              <!-- line -->
+              <tr class="border-2 border-black">
+                <th
+                  scope="col"
+                  class="border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  N°1
+                </th>
+                <td class="border-2 border-black text-center ">
+                  <input
+                    type="text "
+                    id="Localisation1"
+                    name="Localisation1"
+                    class="outline-none border-b-2 w-4/5 h-5 border-dotted border-black"
+                  />
+                </td>
+                <td class="border-2 border-black text-center ">
+                  <div class="flex flex-col">
+                    <div class="flex">
+                      <input type="checkbox" id="ce_jour1" name="ce_jour1" />
+                      <label for="ce_jour1" class="font-normal self-center">
+                        : Réalisée ce jour
+                      </label>
+                    </div>
+                    <div class="flex">
+                      <input type="checkbox" id="a_faire1" name="a_faire1" />
+                      <label for="a_faire1" class="font-normal self-center">
+                        à faire
+                      </label>
+                    </div>
+                  </div>
+                </td>
+                <td
+                  colspan="2"
+                  class="border-2 border-black text-center py-2 "
+                >
+                  <input
+                    type="text "
+                    id="comentaire1"
+                    name="comentaire1"
+                    class="outline-none border-b-2 w-2/5 h-5 border-dotted border-black"
+                  />
+                </td>
+              </tr>
+              <!-- 2 -->
+              <tr class="border-2 border-black">
+                <th
+                  scope="col"
+                  class="border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  N°2
+                </th>
+                <td class="border-2 border-black text-center ">
+                  <input
+                    type="text "
+                    id="Localisation2"
+                    name="Localisation2"
+                    class="outline-none border-b-2 w-4/5 h-5 border-dotted border-black"
+                  />
+                </td>
+                <td class="border-2 border-black text-center ">
+                  <div class="flex flex-col">
+                    <div class="flex">
+                      <input type="checkbox" id="ce_jour2" name="ce_jour2" />
+                      <label for="ce_jour2" class="font-normal self-center">
+                        : Réalisée ce jour
+                      </label>
+                    </div>
+                    <div class="flex">
+                      <input type="checkbox" id="a_faire2" name="a_faire2" />
+                      <label for="a_faire2" class="font-normal self-center">
+                        à faire
+                      </label>
+                    </div>
+                  </div>
+                </td>
+                <td
+                  colspan="2"
+                  class="border-2 border-black text-center py-2 "
+                >
+                  <input
+                    type="text "
+                    id="commentaire2"
+                    name="commentaire2"
+                    class="outline-none border-b-2 w-2/5 h-5 border-dotted border-black"
+                  />
+                </td>
+              </tr>
+              <!-- 3 -->
+              <tr class="border-2 border-black">
+                <th
+                  scope="col"
+                  class="border-2 border-black"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  N°3
+                </th>
+                <td class="border-2 border-black text-center ">
+                  <input
+                    type="text "
+                    id="Localisation3"
+                    name="Localisation3"
+                    class="outline-none border-b-2 w-4/5 h-5 border-dotted border-black"
+                  />
+                </td>
+                <td class="border-2 border-black text-center ">
+                  <div class="flex flex-col">
+                    <div class="flex">
+                      <input type="checkbox" id="ce_jour3" name="ce_jour3" />
+                      <label for="ce_jour3" class="font-normal self-center">
+                        : Réalisée ce jour
+                      </label>
+                    </div>
+                    <div class="flex">
+                      <input type="checkbox" id="a_faire3" name="a_faire3" />
+                      <label for="a_faire3" class="font-normal self-center">
+                        à faire
+                      </label>
+                    </div>
+                  </div>
+                </td>
+                <td
+                  colspan="2"
+                  class="border-2 border-black text-center py-2 "
+                >
+                  <input
+                    type="text "
+                    id="commentaire3"
+                    name="commentaire3"
+                    class="outline-none border-b-2 w-2/5 h-5 border-dotted border-black"
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- table3 -->
+            <table class="border-2 border-black table bg-white table-auto mt-2 w-full">
+              <tr class="border-2 border-black">
+                <th
+                  rowspan="2"
+                  scope="col"
+                  class="border-2 border-black font-bold"
+                 style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  <span
+                    class="w-8 bg-black text-white rounded-full self-end text-md font-extrabold px-2 py-1"
+                    >C3</span
+                  >
+                  Bilan fluide
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté de fluide recupéré
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté de fluide réintroduite
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté de fluide neuf chargé
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté de fluide retournée
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté d'huile recupéré
+                </th>
+                <th
+                  scope="row"
+                  class="border-2 border-black font-normal"
+                  style="background-color: rgba(50, 98, 18, 0.877)"
+                >
+                  Qté d'huile chargé
+                </th>
+              </tr>
+              <tr class="border-2 border-black bg-white">
+                <td class="border-2 border-black text-center">
+                  <div class="">
+                    <input
+                      type="text "
+                      id="qtrecupere"
+                      name="qtrecupere"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+                <td class="border-2 border-black">
+                  <div class="flex">
+                    <input
+                      type="text "
+                      id="qtreintroduit"
+                      name="qtreintroduit"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+                <td class="border-2 border-black text-center">
+                  <div class="">
+                    <input
+                      type="text "
+                      id="qtneuf"
+                      name="qtneuf"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+                <td class="border-2 border-black text-center">
+                  <div class="">
+                    <input
+                      type="text "
+                      id="qtretourne"
+                      name="qtretourne"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+                <td class="border-2 border-black">
+                  <div class="flex">
+                    <input
+                      type="text "
+                      id="qthuile_recupere"
+                      name="qthuie_recupere"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+                <td class="border-2 border-black">
+                  <div class="flex">
+                    <input
+                      type="text "
+                      id="qtcharge_recupere"
+                      name="qtcharge_recupere"
+                      value="kg"
+                      class="outline-none border-b-2 text-right w-4/5 mb-2 h-5 border-dotted border-black"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <!-- les tables flex -->
+            <div class="flex w-full gap-x-1">
+              <table
+                class="table table-auto min-h-full border-2 border-black mt-2"
+              >
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black w-40">
+                    <h1 class="font-bold">Thème 3.05</h1>
+                  </th>
+                  <th colspan="3" class="border-2 border-black">
+                    <h1 class="font-bold">
+                      Consigner les données dans le rgistre suivi et effectuer
+                      les mesures
+                    </h1>
+                  </th>
+                  <th class="border-2 border-black">
+                    <h1 class="font-bold">Notation</h1>
+                  </th>
+                </tr>
+                <!-- 2ligne -->
+                <tr class="border-2 border-black">
+                  <th
+                    rowspan="15"
+                    class="border-2 border-black font-bold text-center transform -rotate-90"
+                  >
+                    <span
+                      class="w-8 rounded-full self-end text-md font-extrabold px-2 py-1"
+                      >C4</span
+                    >
+                    Température et pression en fonctionnement
+                  </th>
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    1- Temp. Evaporation
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                  <th rowspan="10" class="border-2 border-black">..A..B..C</th>
+                </tr>
+                <!-- 3 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    2- Temp. Condensation
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 4 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    3- Temp. sortie condensateur
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 4-1 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    4- Temp. sortie evaporateur
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 5 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    5- DT air/ eau condensateur
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 6 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    6- DT air/ eau evaporateur
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 7 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    7- Pincement evaporateur
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 8 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    8- Pincement condensateur
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 9 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    9- Sous refroidissement
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 10 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    10- Surchauffe
+                  </td>
+                  <td class="border-2 border-black">................°k</td>
+                </tr>
+                <!-- 11 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    11- Temp. réfoulement
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                  <th rowspan="10" class="border-2 border-black">..A..B..C</th>
+                </tr>
+                <!-- 12 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    12- Temp. aspiration
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 13 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    13- Pres. evaporation
+                  </td>
+                  <td class="border-2 border-black">................°bars</td>
+                </tr>
+                <!-- 14 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    14- Pres. condensation
+                  </td>
+                  <td class="border-2 border-black">................°bars</td>
+                </tr>
+                <!-- 15 -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black text-sm">
+                    15- Intensité compresseur
+                  </td>
+                  <td class="border-2 border-black">................A</td>
+                </tr>
+                <!-- 16 -->
+                <tr class="border-2 border-black">
+                  <th
+                    rowspan="6"
+                    class="border-2 border-black transform -rotate-90"
+                  >
+                    Temperature et pressions a l'arrêt
+                  </th>
+                  <td colspan="2" class="border-2 border-black">
+                    Temp. evaporation
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 17 -->
+                <tr>
+                  <td colspan="2" class="border-2 border-black">
+                    Temp. condensation
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+                <!-- 18 -->
+                <tr>
+                  <td colspan="2" class="border-2 border-black">
+                    Pres. evaporation
+                  </td>
+                  <td class="border-2 border-black">................bars</td>
+                </tr>
+                <!-- 19 -->
+                <tr>
+                  <td colspan="2" class="border-2 border-black">
+                    Pres. condensation
+                  </td>
+                  <td class="border-2 border-black">................bars</td>
+                </tr>
+                <!-- 20 -->
+                <tr>
+                  <td colspan="2" class="border-2 border-black">
+                    Temp. ambiante
+                  </td>
+                  <td class="border-2 border-black">................°C</td>
+                </tr>
+              </table>
+              <!-- 2eme flex -->
+              <table
+                class="table table-auto bg-white border-2 min-h-full border-black mt-2"
+              >
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">Thème</th>
+                  <th colspan="3" class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">
+                    Rapport d'intervention: POINTS DE CONTROLE
+                  </th>
+                </tr>
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">6 et 7</th>
+                  <th colspan="2" class="border-2 border-black">
+                    <!-- 1 -->
+                    <div class="flex">
+                      <div>
+                        <input
+                          type="checkbox"
+                          id="compreseur"
+                          name="compreseur"
+                        />
+                        <label for="compreseur" class="font-normal">
+                          Compresseur
+                        </label>
+                      </div>
+                      <!-- 2 -->
+                      <div>
+                        <input
+                          type="checkbox"
+                          id="Condensateur12345"
+                          name="Condensateur12345"
+                        />
+                        <label for="Condensateur12345" class="font-normal">
+                          Condensateur
+                        </label>
+                      </div>
+                    </div>
+                  </th>
+                </tr>
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black"  style="background-color: rgba(50, 98, 18, 0.877)">7 et 8</th>
+                  <th colspan="2" class="border-2 border-black">
+                    <!-- 1 -->
+                    <div class="flex gap-x-1.5">
+                      <div>
+                        <input
+                          type="checkbox"
+                          id="compreseur"
+                          name="compreseur"
+                        />
+                        <label for="compreseur" class="font-normal">
+                          Detenteur
+                        </label>
+                      </div>
+                      <!-- 2 -->
+                      <div>
+                        <input
+                          type="checkbox"
+                          id="Condensateur12345"
+                          name="Condensateur12345"
+                        />
+                        <label for="Condensateur12345" class="font-normal">
+                          Evaporateur
+                        </label>
+                      </div>
+                    </div>
+                  </th>
+                  <th class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">Notation</th>
+                </tr>
+                <!-- nouvelle commencement -->
+                <tr class="border-2 border-black">
+                  <th
+                    rowspan="13"
+                    class="border-2 border-black  "
+                    style="background-color: rgba(50, 98, 18, 0.877)"
+                   
+                  >
+                    <span
+                      class="w-8 rounded-full self-end text-lg font-extrabold px-2 py-1"
+                      >C5</span
+                    >
+                    <div class="transform  w-full  h-72">
+                    Thème 6.02, 7.02, 8.02, 9.02
+                  </div>
+                  </th>
+                  <th colspan="2" class="border-2 border-black"  style="background-color: rgba(50, 98, 18, 0.877)">
+                    Lors du montage
+                  </th>
+                  <th rowspan="6" class="border-2 border-black">..A..B..C..</th>
+                </tr>
+                <!-- les entrés de ligne -->
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    1- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    2- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    3- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    4- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    5- ........................................
+                  </td>
+                </tr>
+                <!-- DFGDSG -->
+                <tr class="border-2 border-black">
+                  <th colspan="2" class="border-2 border-black"  style="background-color: rgba(50, 98, 18, 0.877)">
+                    Lors du fonctionnement
+                  </th>
+                  <th rowspan="6" class="border-2 border-black">..A..B..C..</th>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    1- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    2- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    3- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    4- ........................................
+                  </td>
+                </tr>
+                <tr class="border-2 border-black">
+                  <td colspan="2" class="border-2 border-black">
+                    5- ........................................
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- 2eme TABLEAU  -->
+          <div class="w-4/12 h-full  flex flex-col">
+            <div class="border-2 bg-white pb-5 border-black h-full">
+              <div class="h-full">
+                <div class="w-full flex flex-col">
+                  <div
+                    class="h-8 w-full"
+                    style="background-color: rgba(50, 98, 18, 0.877)"
+                  >
+                    <h2
+                      class="flex flex justify-center gap-x-10 font-bold text-1xl text-center"
+                    >
+                      Equipement concerné:
+                      <span
+                        class="bg-black w-8 relative left-16 top-3 rounded-full self-end text-white text-sm font-extrabold px-2 py-1"
+                        >C1</span
+                      >
+                    </h2>
+                  </div>
+                  <!-- marquage -->
+                  <div class="flex flex-col h-full">
+                    <div class="flex flex-col gap-y-2 bg-white py-4">
+                      <div class="flex flex-col gap-y-3">
+                        <div class="flex gap-x-5">
+                          <h2 class="font-normal">Marquage:</h2>
+                          <div class="flex gap-x-5">
+                            <div>
+                              <label for="ouie" class="font-normal">
+                                <input type="checkbox" id="ouie" name="ouie" />
+                                oui
+                              </label>
+                            </div>
+                            <div>
+                              <label for="none" class="font-normal">
+                                <input type="checkbox" id="none" name="none" />
+                                Non
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- numero series -->
+                        <div class="flex w-full">
+                          <label for="numero_series flex"
+                            >Numéro de serie:
+                          </label>
+                          <input
+                            type="text "
+                            id="numero_series"
+                            name="numero_series"
+                            class="outline-none self-center border-b-2 w-3/5 h-5 border-dotted border-black"
+                          />
+                        </div>
+                        <!-- lieu d'implementation -->
+                        <div class="flex w-full">
+                          <label for="implementation flex"
+                            >Lieu d'implémentation:
+                          </label>
+                          <input
+                            type="text "
+                            id="implementation"
+                            name="implementation"
+                            class="outline-none self-center border-b-2 w-3/5 h-5 border-dotted border-black"
+                          />
+                        </div>
+                        <!-- date de la 1er mise en  service -->
+                        <div class="flex w-full">
+                          <label for="implementation flex"
+                            >Date de la 1ère mise en service :
+                          </label>
+                          <input
+                            type="date"
+                            id="implementation"
+                            name="implementation"
+                            class="outline-none self-center border-b-2 w-2/5 h-5 border-dotted border-black"
+                          />
+                        </div>
+                        <!-- type de fluide -->
+                        <div class="flex gap-x-1">
+                          <h2 class="font-normal">Type de fluide:</h2>
+                          <div class="flex gap-x-1.5">
+                            <div class="flex">
+                              <input type="checkbox" id="R134a" name="R134a" />
+                              <label
+                                for="R134a"
+                                class="font-normal self-center"
+                              >
+                                R134a
+                              </label>
+                            </div>
+                            <div class="flex">
+                              <input type="checkbox" id="R404A" name="R404A" />
+                              <label
+                                for="R404A"
+                                class="font-normal self-center"
+                              >
+                                R404A
+                              </label>
+                            </div>
+                            <div class="flex">
+                              <input type="checkbox" id="R410" name="R410" />
+                              <label for="R410" class="font-normal self-center">
+                                R410 A
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- charge de fluide - charge huile -->
+                        <div class="flex w-full">
+                          <!-- charge-fluide -->
+                          <div class="flex">
+                            <label for="chargefluide" class="self-center"
+                              >Charge de fluide :
+                            </label>
+                            <input
+                              type="text"
+                              id="chargefluide"
+                              name="chargefluide"
+                              value="kg"
+                              class="outline-none text-right self-center border-b-2 w-1/5 h-5 border-dotted border-black"
+                            />
+                          </div>
+                          <!-- charge huile -->
+                          <div class="flex">
+                            <label for="chargehuile" class="self-center w-3/4"
+                              >Charge en huile :
+                            </label>
+                            <input
+                              type="text"
+                              id="chargehuile"
+                              name="chargehuile"
+                              value="litres"
+                              class="outline-none text-right self-center border-b-2 w-1/4 h-5 border-dotted border-black"
+                            />
+                          </div>
+                        </div>
+                        <!-- type d'huile -->
+                        <div class="flex gap-x-3">
+                          <h2 class="font-normal">Type d'huile:</h2>
+                          <div class="flex gap-x-3">
+                            <div class="flex">
+                              <label for="POE" class="font-normal self-center">
+                                POE
+                              </label>
+                              <input type="checkbox" id="POE" name="POE" />
+                            </div>
+                            <div class="flex">
+                              <label for="Min" class="font-normal self-center">
+                                Min.
+                              </label>
+                              <input type="checkbox" id="Min" name="Min" />
+                            </div>
+                            <div class="flex">
+                              <label for="AlK" class="font-normal self-center">
+                                AlK.B.
+                              </label>
+                              <input type="checkbox" id="AlK" name="AlK" />
+                            </div>
+                            <div class="flex">
+                              <label for="PAG" class="font-normal self-center">
+                                PAG
+                              </label>
+                              <input type="checkbox" id="PAG" name="PAG" />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- motif de l'invention -->
+                        <div class="flex w-full">
+                          <label for="motif_invention flex"
+                            >Motif de l'invention:
+                          </label>
+                          <input
+                            type="text "
+                            id="motif_invention"
+                            name="motif_invention"
+                            class="outline-none self-center border-b-2 w-3/5 h-5 border-dotted border-black"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 2ème border -->
+                    <div class="flex flex-col gap-y-2 bg-white">
+                      <div
+                        class="flex flex-col gap-y-3 border-t-2 border-black "
+                        style="background-color: rgba(50, 98, 18, 0.877)"
+                      >
+                        <h2 class="italic">Description de l'installation</h2>
+                        <h2 class="font-bold">Compresseur</h2>
+
+                        <!-- checkbox -->
+                        <div class="flex flex-col gap-y-4 bg-white">
+                          <div class="flex gap-x-2">
+                            <div class="flex gap-x-2">
+                              <input
+                                type="checkbox"
+                                id="Hemetique"
+                                name="Hemetique"
+                              />
+                              <label
+                                for="Hemetique"
+                                class="font-normal self-center"
+                              >
+                                Hémetique
+                              </label>
+                            </div>
+                            <div class="flex gap-x-2">
+                              <input
+                                type="checkbox"
+                                id="SHemetique"
+                                name="SHemetique"
+                              />
+                              <label
+                                for="SHemetique"
+                                class="font-normal self-center"
+                              >
+                                Semi hémetique
+                              </label>
+                            </div>
+                          </div>
+                          <!-- poulie -->
+                          <div class="flex gap-x-2">
+                            <label for="ouvert" class="font-normal self-center">
+                              ouvert (poulie courroie)
+                            </label>
+                            <input type="checkbox" id="ouvert" name="ouvert" />
+                          </div>
+                          <!-- Intensité nominal -->
+                          <div class="flex w-full">
+                            <label for="motif_invention flex"
+                              >Intensité nominal:
+                            </label>
+                            <input
+                              type="text "
+                              id="motif_invention"
+                              name="motif_invention"
+                              value="A"
+                              class="outline-none text-right self-center border-b-2 w-3/5 h-5 border-dotted border-black"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- condensateur -->
+                    <div class="flex flex-col gap-y-2 pb-4 mt-4">
+                      <h2
+                        class="font-bold"
+                        style="background-color: rgba(50, 98, 18, 0.877)"
+                      >
+                        Condenseur
+                      </h2>
+                      <!-- eau - air  -->
+                      <div class="bg-white flex flex-col gap-y-4">
+                        <div class="flex gap-x-2">
+                          <div class="flex gap-x-2">
+                            <input type="checkbox" id="eau" name="eau" />
+                            <label for="eau" class="font-normal self-center">
+                              à eau
+                            </label>
+                          </div>
+                          <div class="flex gap-x-2">
+                            <input type="checkbox" id="air" name="air" />
+                            <label for="air" class="font-normal self-center">
+                              à air
+                            </label>
+                          </div>
+                        </div>
+                      
+                      <!-- regui -->
+                      <div class="flex gap-x-1">
+                        <h2>Régul Pk:</h2>
+                        <div class="flex gap-x-3">
+                          <div class="flex">
+                            <input type="checkbox" id="ouiC" name="ouiC" />
+                            <label for="ouiC" class="font-normal self-center">
+                              oui
+                            </label>
+                          </div>
+                          <div class="flex">
+                            <input type="checkbox" id="nonC" name="nonC" />
+                            <label for="nonC" class="font-normal self-center">
+                              non
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- 2eme Detenteur -->
+                    <div class="flex flex-col gap-y-4 ">
+                      <h2 class="font-bold" style="background-color: rgba(50, 98, 18, 0.877)">Détenteur</h2>
+                      <!-- eau - air  -->
+                      <div class="flex gap-x-3">
+                        <div class="flex gap-x-2">
+                          <input
+                            type="checkbox"
+                            id="thermostatique"
+                            name="thermostatique"
+                          />
+                          <label
+                            for="thermostatique"
+                            class="font-normal self-center"
+                          >
+                            thermostatique
+                          </label>
+                        </div>
+                        <div class="flex gap-x-2">
+                          <input
+                            type="checkbox"
+                            id="electronique"
+                            name="electronique"
+                          />
+                          <label
+                            for="electronique"
+                            class="font-normal self-center"
+                          >
+                            électronique
+                          </label>
+                        </div>
+                      </div>
+                      <!-- egal-int_ext -->
+                      <div class="flex gap-x-3">
+                        <div class="flex gap-x-2">
+                          <input
+                            type="checkbox"
+                            id="egal_int"
+                            name="egal_int"
+                          />
+                          <label for="egal_int" class="font-normal self-center">
+                            égal.interne
+                          </label>
+                        </div>
+                        <div class="flex gap-x-2">
+                          <input
+                            type="checkbox"
+                            id="electronique"
+                            name="electronique"
+                          />
+                          <label
+                            for="electronique"
+                            class="font-normal self-center"
+                          >
+                            égal.externe
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- evaporateur -->
+                    <div class="flex flex-col gap-y-4 mt-4">
+                      <h2 class="font-bold" style="background-color: rgba(50, 98, 18, 0.877)">Evaporateur</h2>
+                      <!-- eau - air  -->
+                      <div class="flex gap-x-2">
+                        <div class="flex gap-x-12">
+                          <div class="flex gap-x-2">
+                            <input type="checkbox" id="air1" name="air1" />
+                            <label for="air1" class="font-normal self-center">
+                              à air
+                            </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="eau1" name="eau1" />
+                            <label for="eau1" class="font-normal self-center">
+                              à eau
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- deg -->
+                      <div class="flex gap-x-2">
+                        <div class="flex gap-x-12">
+                          <div class="flex gap-x-2">
+                            <input type="checkbox" id="air1" name="air1" />
+                            <label for="air1" class="font-normal self-center">
+                              dég. gaz chaud
+                            </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="eau1" name="eau1" />
+                            <label for="eau1" class="font-normal self-center">
+                              dég. Rés. Elec.
+                            </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="eau1" name="eau1" />
+                            <label for="eau1" class="font-normal self-center">
+                              Naturel
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- présence glycol -->
+                      <div class="flex gap-x-5">
+                        <h2>Présence glycol</h2>
+                        <div class="flex gap-x-3">
+                          <div class="">
+                            <input
+                              type="checkbox"
+                              id="oui_glycol"
+                              name="oui_glycol"
+                            />
+                            <label
+                              for="oui_glycol"
+                              class="font-normal self-center"
+                            >
+                              oui
+                            </label>
+                          </div>
+                          <div>
+                            <input
+                              type="checkbox"
+                              id="non_glycol"
+                              name="non_glycol"
+                            />
+                            <label
+                              for="non_glycol"
+                              class="font-normal self-center"
+                            >
+                              non
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Regulpro -->
+                      <div class="flex gap-x-5">
+                        <h2>Régul PO:</h2>
+                        <div class="flex gap-x-3">
+                          <div class="">
+                            <input type="checkbox" id="oui_po" name="oui_po" />
+                            <label for="oui_po" class="font-normal self-center">
+                              oui
+                            </label>
+                          </div>
+                          <div>
+                            <input type="checkbox" id="non_po" name="non_po" />
+                            <label for="non_po" class="font-normal self-center">
+                              non
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+              </div>
+            </div>
+            <!-- table -->
+            <div>
+              <table class="border-2 border-black mt-4 bg-white table-auto h-96 w-full">
+                
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black px-4 " style="background-color: rgba(50, 98, 18, 0.877) ">
+                    3.01
+                    <span
+                    class="bg-black w-8 relative bottom-[5em] right-7  rounded-full self-end text-white text-sm font-extrabold px-2 py-1"
+                    >C6</span
+                  >
+                  </th>
+                  <td class="border-2 border-black text-sm">
+                    Effectuer une épeuve de pression Pression d'épreuve- Valeur
+                    de la pression:..............................Bars
+                  </td>
+                  <td>..A..B..C..</td>
+                </tr>
+                <!-- 2 -->
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">3.02</th>
+                  <td class="border-2 border-black text-sm">
+                    Effectuer une épeuve de pression pour le contrôle de
+                    l'étanchiété Valeur de la
+                    pression:......................................Bars
+                  </td>
+                  <td>..A..B..C..</td>
+                </tr>
+                <!-- 3 -->
+                <tr class="border-2 border-black">
+                  <th class="border-2 border-black" style="background-color: rgba(50, 98, 18, 0.877)">3.04</th>
+                  <td class="border-2 border-black text-sm">
+                    Faire le vide pour évacuer l'air et l'humidité- valeur du
+                    vide:.....................................mbars
+                    Température:..........°C
+                  </td>
+                  <td>..A..B..C..</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

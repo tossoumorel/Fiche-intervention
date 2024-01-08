@@ -1,0 +1,23 @@
+table,
+tr,
+td {
+  border-width: 1px solid black;
+}
+
+/* 
+<th rowspan="10" class="border-2 border-black">
+                    ..A..B..C..
+                  </th>
+
+
+
+LIGNE 10
+
+<th rowspan="10" class="border-2 border-black">
+                    ..A..B..C..
+                  </th>
+
+
+
+
+*/
